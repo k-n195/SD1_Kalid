@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crossword Game</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Simple Crossword</h1>
+
+  <div class="crossword-container">
+    <table id="crossword"></table>
+  </div>
+
+  <div class="clues">
+    <h2>Clues</h2>
+    <div><strong>Across</strong></div>
+    <ol>
+      <li>1. Opposite of cold</li>
+      <li>3. A domesticated animal that barks</li>
+    </ol>
+    <div><strong>Down</strong></div>
+    <ol>
+      <li>1. Used to write</li>
+      <li>2. Another word for quick</li>
+    </ol>
+  </div>
+
+  <button onclick="checkAnswers()">Check Answers</button>
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
