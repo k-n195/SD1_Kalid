@@ -10,3 +10,6 @@ Software dev 1 A1
   9-11:
   kalid 
   
+momin:
+2 
+1-3
